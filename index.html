@@ -21,6 +21,13 @@ color:white;
 font-family:Segoe UI;
 }
 
+#particles-js{
+position:fixed;
+width:100%;
+height:100%;
+z-index:-1;
+}
+
 .section{
 padding:80px 0;
 }
@@ -92,11 +99,15 @@ transform:scale(1.05);
 box-shadow:0 0 25px cyan;
 }
 
+.mb-111{
+  color:darkslateblue;
+}
 
 </style>
 </head>
 
 <body>
+  <div id="particles-js"></div>
 
 <!-- SOCIAL MEDIA CONTACT LISTS -->
 
@@ -147,7 +158,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 
 <div class="row text-center">
 
-<div class="col-md-4 mt-4">
+<div class="col-md-4 mt-5">
 <div class="card p-4">
 <i class="fa fa-graduation-cap fa-3x text-info"></i>
 <h3>SSC</h3>
@@ -157,7 +168,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 </div>
 
-<div class="col-md-4 mt-4">
+<div class="col-md-4 mt-5">
 <div class="card p-4">
 <i class="fa fa-university fa-3x text-warning"></i>
 <h4>HSC</h4>
@@ -167,7 +178,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 </div>
 
-<div class="col-md-4 mt-4">
+<div class="col-md-4 mt-5">
 <div class="card p-4">
 <i class="fa fa-user-graduate fa-3x text-success"></i>
 <h4>Bachelor of Scince (BSc)</h4>
@@ -192,20 +203,20 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 <div class="row g-3">
 
 <!-- Skills 1-->
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fab fa-html5 fa-2x text-danger"></i><br>HTML-5</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fab fa-css3 fa-2x text-info"></i><br>CSS</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fab fa-js fa-2x text-warning"></i><br>JavaScript</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fab fa-bootstrap fa-2x text-primary"></i><br>Bootstrap</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="fab fa-html5 fa-2x text-danger"></i><br>HTML-5</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="fab fa-css3 fa-2x text-info"></i><br>CSS</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="fab fa-js fa-2x text-warning"></i><br>JavaScript</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="fab fa-bootstrap fa-2x text-primary"></i><br>Bootstrap</div></div>
 
-<div class="col-md-3"><div class="card p-3 text-center"><i class="fab fa-php fa-2x text-primary"></i><br>PHP</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="devicon-php-plain colored" style="font-size:30px;"></i><br>Core PHP</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="devicon-php-plain colored" style="font-size:30px;"></i><br>OOP</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="devicon-javascript-plain colored" style="font-size:30px;"></i><br>AJAX</div></div>
-<div class="col-md-3"><div class="card p-3 text-center"><i class="devicon-javascript-plain colored" style="font-size:30px;"></i><br>JQuery</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="fab fa-php fa-2x text-primary"></i><br>PHP</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="devicon-php-plain colored" style="font-size:30px;"></i><br>Core PHP</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="devicon-php-plain colored" style="font-size:30px;"></i><br>OOP</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="devicon-javascript-plain colored" style="font-size:30px;"></i><br>AJAX</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="devicon-javascript-plain colored" style="font-size:30px;"></i><br>JQuery</div></div>
 
-<div class="col-md-3"><div class="card p-3 text-center"><i class="devicon-mysql-plain colored" style="font-size:30px;"></i><br>MySQL</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="devicon-mysql-plain colored" style="font-size:30px;"></i><br>MySQL</div></div>
 
-<div class="col-md-3"><div class="card p-3 text-center"><i class="devicon-mariadb-plain colored" style="font-size:30px;"></i><br>MariaDB</div></div>
+<div class="col-6 col-md-3"><div class="card p-3 text-center"><i class="devicon-mariadb-plain colored" style="font-size:30px;"></i><br>MariaDB</div></div>
 
 </div>
 
@@ -246,15 +257,15 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 
 <!--  intellgence agency-->
 <div class="col-md-6">
-  <div class="card p-4 text-center"  bg-warning-transparent">
-     <h5><!--Central Investigation Agency (CIA)  --></h5>
-    <p><!--Cybersecurity, Cybercrime Investigation  --></p>
-    <p><!--Research of DeepWeb, DarkWeb & Manipulator Of Virtual World  --></p>
-     
-  </div>
+<div class="card p-3 text-center bg-warning-transparent">
+<h5 class="mb-111">Central Investigation Agency- CIA</h5>
+<p class="mb-111">Cybersecurity, Cybercrime Investigation</p>
+<p class="mb-111">Research of DeepWeb, DarkWeb & Manipulator Of Virtual World</p>
 </div>
- 
 </div>
+
+</div>
+
 </section>
 
 <!-- LANGUAGE SKILL -->
@@ -349,7 +360,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 <div class="row g-4">
 
 <!-- Project 1 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://www.optimonk.com/wp-content/uploads/amazon-2048x948.png" class="card-img-top">
 <div class="card-body text-center">
@@ -361,7 +372,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 2 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://devantitsolutions.com/public/storage/blogs/June2025/Copilot_20250603_151250.png" class="card-img-top">
 <div class="card-body text-center">
@@ -373,7 +384,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 3 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://uicookies.com/wp-content/uploads/2019/02/free-bootstrap-hospital-templates-1000x750.jpg.avif" class="card-img-top">
 <div class="card-body text-center">
@@ -385,7 +396,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 4 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://cdn.prod.website-files.com/687e8d1b96312cc631cafec7/68d5ced56d8be9876b2d1b46_68d2e9db5d82ecede31f6b15_098a4723.png" class="card-img-top">
 <div class="card-body text-center">
@@ -397,7 +408,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 5 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://arulmjoseph.com/wp-content/uploads/2017/11/Must-have-Features-Of-A-Best-Online-News-Portal-Design.jpg" class="card-img-top">
 <div class="card-body text-center">
@@ -410,7 +421,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 
 
 <!-- Project 7 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240506193744/How-to-create-a-job-portal-website.webp" class="card-img-top">
 <div class="card-body text-center">
@@ -422,7 +433,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 8 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://www.samarpaninfotech.com/wp-content/uploads/2021/09/Restaurant-Website-Design-Features-1.jpg" class="card-img-top">
 <div class="card-body text-center">
@@ -434,7 +445,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 9 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://static.dashthis.com/media/1960/dashboard_dashboard.png" class="card-img-top">
 <div class="card-body text-center">
@@ -446,7 +457,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 9 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://nandini.infinityfreeapp.com/wp-content/uploads/2024/09/SMM-1-2022.jpg" class="card-img-top">
 <div class="card-body text-center">
@@ -458,7 +469,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 9 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://digitaldhandha.com/wp-content/uploads/2020/06/search-engine-optimization.png" class="card-img-top">
 <div class="card-body text-center">
@@ -470,7 +481,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 </div>
 
 <!-- Project 9 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://www.solutions-ii.com/hs-fs/hubfs/Blog%20Images/SocialMedia.jpg?width=515&name=SocialMedia.jpg" class="card-img-top">
 <div class="card-body text-center">
@@ -483,7 +494,7 @@ src="https://graph.facebook.com/MohdKhairulAlam0001/picture?type=large">
 
 
 <!-- Project 10 -->
-<div class="col-md-4">
+<div class="col-6 col-md-4">
 <div class="card project-card">
 <img src="https://www.fraud.com/wp-content/uploads/2024/02/How-Fraud-Detection-Works-1-1536x949.png" class="card-img-top">
 <div class="card-body text-center">
@@ -655,21 +666,4 @@ AOS.init();
 </script>
 
 </body>
-
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
